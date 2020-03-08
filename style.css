@@ -46,7 +46,17 @@ body {
  }
 
 
+a {
+  color: blue;
+}
 
+a:visited {
+  color: red;
+}
+
+a:hover, a:active, a:focus {
+  color: blue;
+}
 
 .caption {
   width: 100%;
@@ -114,6 +124,13 @@ h3.list-title {
   height: 200px;
   margin-left: 50px;
 }
+
+.ems {
+  width: 355px;
+  height: 300px;
+  margin-left: 50px;
+}
+
 .social a {
   font-size: 4.5em;
   padding: 3rem;
