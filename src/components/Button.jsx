@@ -1,6 +1,6 @@
 const Button = ({ text }) => {
   return (
-    <button class="px-4 py-3 w-40 bg-blue-300 text-black rounded-xl shadow-sm hover:shadow-md hover:brightness-95">
+    <button className="px-4 py-3 w-40 bg-blue-300 text-black rounded-xl shadow-sm hover:shadow-md hover:brightness-95">
       {text}
     </button>
   );
