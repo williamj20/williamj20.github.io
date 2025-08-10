@@ -7,6 +7,7 @@ const App = () => {
     <div className="min-h-dvh background-colour flex flex-col">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </div>

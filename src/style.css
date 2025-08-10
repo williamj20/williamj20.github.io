@@ -3,3 +3,7 @@
 .background-colour {
   @apply bg-gradient-to-b from-blue-100 to-blue-300;
 }
+
+.link-text {
+  @apply text-blue-500 hover:underline;
+}
